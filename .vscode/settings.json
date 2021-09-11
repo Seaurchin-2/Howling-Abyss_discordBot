@@ -1,4 +1,13 @@
 {
     "python.pythonPath": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
-    "files.encoding": "euckr"
+    "files.encoding": "euckr",
+    "python.linting.pylintEnabled": false,
+
+    "python.linting.enabled": true,
+
+    "python.linting.flake8Args": [
+        "--max-line-length=250",
+        "--ignore=E501,E128,W503"
+    ],
+    "python.linting.flake8Enabled": true
 }
