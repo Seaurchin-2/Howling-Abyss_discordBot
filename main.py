@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 
 app = commands.Bot(command_prefix='.')
-token = "ODY2MzI1MTIxNzQ5MDkwMzE0.YPQ6JA.GTgxbrfd9OeWeR6PN60N2vUoRs8"
+token = "sample"
 
 
 @app.event
